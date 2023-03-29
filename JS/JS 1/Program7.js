@@ -36,3 +36,7 @@ switch (date.getDay()) {
         console.log("Saturday");
         break;
 }
+
+const numberVariable = 10
+
+console.log("The Number is - \t", numberVariable%2==0 ? "Even" :"ODD");
