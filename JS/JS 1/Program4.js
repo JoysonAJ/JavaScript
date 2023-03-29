@@ -24,4 +24,27 @@ console.log(`${nullType} \t ${numericType} \n`);
 console.log(`${booleanType} \t ${bigInt_Type} \n`);
 console.log(`${stringType} \t`);
 console.log(symbolType);
-console.log(`\n ${undefinedType}`);
+console.log(`\n ${undefinedType} \n\n`);
+
+// Type of finding
+console.log("______________________________________");
+console.log(typeof nullType);
+console.log(typeof numericType);
+console.log(typeof booleanType);
+console.log(typeof bigInt_Type);
+console.log(typeof stringType);
+console.log(typeof symbolType);
+console.log(typeof undefinedType);
+
+console.log("__________________________________________");
+
+console.log("Object in JavaScript");
+const itemObj = {
+    regNo : "001",
+    course : "MCA",
+    Fee : 110000,
+    batch : "A"
+}
+
+console.log(itemObj["regNo"]);
+console.log(itemObj.Fee);
