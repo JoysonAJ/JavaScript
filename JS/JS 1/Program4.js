@@ -38,7 +38,7 @@ console.log(typeof undefinedType);
 
 console.log("__________________________________________");
 
-console.log("Object in JavaScript");
+console.log("Object in JavaScript - Non-primitive data type");
 const itemObj = {
     regNo : "001",
     course : "MCA",
