@@ -7,3 +7,10 @@ const sum = (num1,num2)=>{
 }
 
 setTimeout(sum,2500,a,b)
+
+let i=0
+const setIntervalCall = ()=>{
+    console.log("this is set Interval block",i++);
+}
+
+setInterval(setIntervalCall, 1000);
